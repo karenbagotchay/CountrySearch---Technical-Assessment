@@ -21,6 +21,7 @@ class CountrySearchPresenter {
     
     func viewDidLoad() {
         setUpSubscibers()
+        datamanger.fetchCountries()
     }
     
     private func setUpSubscibers() {
